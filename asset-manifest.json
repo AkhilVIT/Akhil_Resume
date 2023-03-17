@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Akhil_Resume/static/css/main.f46a040f.css",
+    "main.js": "/Akhil_Resume/static/js/main.10e5c3d7.js",
+    "index.html": "/Akhil_Resume/index.html",
+    "main.f46a040f.css.map": "/Akhil_Resume/static/css/main.f46a040f.css.map",
+    "main.10e5c3d7.js.map": "/Akhil_Resume/static/js/main.10e5c3d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f46a040f.css",
+    "static/js/main.10e5c3d7.js"
+  ]
+}
