@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import { Button, Card, Divider } from 'ui-neumorphism';
 import './App.css';
-
+import LeftPart from './components/LeftPart';
+import ProfileSummary from './components/ProfileSummary';
+import RightPart from './components/RightPart';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ProfileSummary/>
+      <Divider/>
+      <div style={{display:"flex",flexDirection:"row",alignItems:"flex-start",justifyContent:"space-evenly",position:"relative"}}>
+        <LeftPart  />
+        <div className='right-child'>
+          <RightPart/>
+        </div>
+      </div>
     </div>
   );
 }
